@@ -80,7 +80,7 @@ $(document).ready(function(){
 			$("#exampleModal").modal('show');
 		},'json');
 	});
-	$('#exampleModal').on('hidden.bs.modal', function (e) {
+	$('#exampleModal').on('hidden.bs.modal', function (e) { //oscar
 		$(".modal-title").html("Nuevo Producto");
 		$("#inputId").val("");
 		$("#inputNombre").val("");
